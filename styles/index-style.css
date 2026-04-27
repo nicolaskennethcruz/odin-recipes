@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    background-color: #F7F7F8;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+.recipe-list{
+    background-color: #F7F7F8;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    margin: 30px 0 auto;
+
+}
+
+a{
+    text-decoration: none;
+}
