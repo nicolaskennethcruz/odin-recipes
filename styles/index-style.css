@@ -1,5 +1,7 @@
 html{
     box-sizing: border-box;
+    font-family: "Domine", serif;
+    font-size: 18px;
 }
 
 *,
@@ -16,13 +18,14 @@ html{
 
 .recipe-list{
     background-color: #F7F7F8;
-    width: 60vw;
-    margin: 0 auto;
+    /* width: 60vw; */
+    margin: 100px 400px;
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 li{
